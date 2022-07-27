@@ -1,0 +1,18 @@
+body{
+    background:repeating-conic-gradient(rgba(0, 0, 0, 0.23) 0% 25%, rgba(153, 205, 50, 0.444) 0% 50%)0/10vw 10vw  ; 
+      animation-name: animation;
+      animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;    
+      animation-play-state: running;
+  }
+  body{
+    min-height:100vh;
+    overflow:hidden
+  }
+  
+  @keyframes animation {
+   0%{background-color:black;}
+      50.0%  {background-color:blue;}
+      100.0%  {background-color:gray;}
+  }
